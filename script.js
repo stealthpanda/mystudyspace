@@ -1,5 +1,7 @@
 let playingAudio = new Array();
 
+//check if paused
+
 function checkPause(){
 	if (playingAudio.length==0) {
 		document.getElementById("pauseAll").parentNode.className="massPause hidden";
@@ -33,7 +35,7 @@ function playSound(audioNum) {
 function changeVolume(audioNum, val) {
 	let sound=document.getElementById(audioNum);
 	sound.volume = val;
-
+	
 	if (val==0) {
 		sound.parentNode.querySelector("#vol").className="volume-control muted";
 	} else {
