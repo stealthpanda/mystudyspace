@@ -1,4 +1,4 @@
-# My Study Space
+# My Study Space - Project Proposal Summary
 
 ---
 
@@ -30,7 +30,7 @@ The target audience for this project are high school and university students tha
 
 ## Content
 
-The site contains 3 pages and follows a minimal design with minimal images and cohesive colour scheme. The header section containing navigation which links the current page to the other two pages. The footer contains the developer detail with link to their linkedin portfolio.
+The site contains 3 pages and follows a minimal design with minimal images and cohesive colour scheme. The header section containing navigation which links the current page to the other pages. The footer contains the developer detail with link to their linkedin portfolio.
 
 ### My study space
 My study space is the main page of the website and contains features to help aid study. 
