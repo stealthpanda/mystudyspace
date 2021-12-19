@@ -1,0 +1,436 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Playfair Display', serif;
+	background-color: #ffe7d2;
+}
+
+
+@media screen and (max-width: 1535px) {
+	.middle{
+		width: 37% !important;
+	}
+}
+
+@media screen and (max-width: 1374px) {
+	.text-box h1 {
+		font-size: 40px !important;
+	}
+
+	.text-box p {
+		font-size: 23px !important;
+	}
+
+	.middle{
+		width: 35% !important;
+		top: 17% !important;
+	}
+}
+
+@media screen and (max-width: 1270px) {
+	.middle{
+		width: 33% !important;
+		top: 17% !important;
+	}
+}
+
+@media screen and (max-width: 1170px) {
+	.middle{
+		width: 31% !important;
+		top: 17% !important;
+	}
+}
+
+@media screen and (max-width: 1115px) {
+  .left {
+    width: 100% !important; 
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .audio {
+  	max-width: 300px;
+  }
+
+  .right {
+  	width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .container {
+  	max-width: 600px;
+  }
+
+  .massPause {
+  	margin-right: 20% !important;
+  }
+
+  footer {
+  	position: static !important;
+  	flex-shrink: 0 !important;
+  	padding-top: 7%;
+  	padding-right: 10%;
+  	padding-left: 10%;
+  	padding-bottom: 2%;
+  }
+
+  .container {
+		height:200px !important;
+	}
+
+	.middle {
+		display: none !important;
+	}
+
+}
+
+@media screen and (max-height: 665px) {
+	.content {
+		padding-top: 0em !important;
+	}
+
+	.audio {
+	margin: 30px auto !important;
+	}
+
+	footer {
+  	position: static !important;
+  	flex-shrink: 0 !important;
+  	padding-top: 7%;
+  	padding-left: 10px;
+  	padding-bottom: 10px;
+  	float: left!important;
+  }
+
+ 
+}
+
+@media screen and (max-width: 700px) {
+    .text-box h1 {
+		font-size: 35px !important;
+	}
+	.text-box h2 {
+		font-size: 20px !important;
+	}
+
+	.text-box p {
+		font-size: 18px !important;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	.txtb, h3{
+		font-size: 16px !important;
+	}
+
+	.task {
+		font-size: 15px !important;
+	}
+
+}
+
+.body {
+	min-width:450px; 
+	display: flex;
+}
+
+.header{
+	width:100%;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+nav{
+	display:flex;
+	padding:2% 6%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.header {
+	padding-bottom: 7%;
+}
+
+.header button {
+	border: none;
+	text-transform: uppercase;
+	font-weight: medium;
+	margin-right: 25px;
+	margin-top: 15px;
+	padding: 10px;
+	font-size: 16px;
+	position: relative;
+	float: right;
+	cursor: pointer;
+}
+
+.header button::after {
+	content:'';
+	width:0%;
+	height:2px;
+	background:#44806c;
+	display: block;
+	margin: auto;
+	transition:0.4s;
+}
+
+.header button:hover::after {
+	width: 100%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  top: 5px;
+  font-size: 28px;
+  font-weight: medium;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.content {
+	padding: 2em;
+}
+
+.left {
+	position: relative;
+	float: left;
+	height:100%;
+	width: 30%;
+	margin-left: 2%;
+	display: block;
+	padding: 10px;
+}
+
+.middle {
+	position: absolute;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline;
+	top: 15%;
+}
+
+.illustration {
+	width: 100%;
+}
+
+.text-box{
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	max-width:500px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.text-box h1 {
+	font-size: 60px;
+	letter-spacing: 0;
+}
+
+.text-box h2 {
+	font-size: 34px;
+}
+
+.text-box p {
+	font-size: 26px;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+
+.text-box-article{
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	max-width:1200px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.text-box-article h1 {
+	font-size: 60px;
+}
+
+.text-box-article h2 {
+	font-size: 38px;
+}
+
+.text-box-article p {
+	font-size: 24px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+	width:90%;
+	height:300px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	overflow-y: overlay;
+}
+
+
+.txtb{
+	width:93%;
+	border:none;
+	border-bottom: 2px solid #000;
+	padding:10px;
+	background:none;
+	font-size: 18px;
+}
+
+
+h3 {
+	margin: 10px 0;
+}
+
+a {
+	color:#3b4a1f;
+}
+
+.task {
+	max-width:92%;
+	background: rgba(255,255,255,.5);
+	padding: 12px;
+	margin:5px 0;
+/*	overflow:hidden;*/
+	overflow-wrap: break-word;
+}
+
+.task i{
+	float: right;
+	margin-left: 20px;
+	background-color:transparent;
+}
+
+.fas:hover{
+	cursor: pointer;
+}
+
+.comp .task {
+	background: rgba(0,0,0,.5);
+	color:#fff;
+}
+
+.right{
+	margin-right: 4%;
+	float: right;
+}
+
+.audio {
+	margin: 36px auto;
+	width: 100%;
+}
+
+.audio span {
+	align-items: center;
+	display:flex;
+	margin: 10px;
+}
+
+.audio button {
+	appearance:auto;
+	height:15px;
+	width:15px;
+	cursor:pointer;
+	border:none;
+	background:transparent;
+	background-size: 15px;
+}
+
+.unpressed button {
+	background-image:url(https://img.icons8.com/android/24/000000/play.png);
+}
+
+.pressed button {
+	background-image: url(https://img.icons8.com/android/24/000000/pause.png);
+}
+
+.volume-control {
+	background-image: url(https://img.icons8.com/material-rounded/24/000000/no-audio--v2.png);
+	background-size:16px;
+	height:16px;
+	width:16px;
+	display:flex;
+	margin-right: 5px;
+}
+
+.muted {
+	background-image: url(https://img.icons8.com/material-rounded/24/000000/no-audio--v1.png);
+}
+
+.vol-control {
+ 	-webkit-appearance: none;
+ 	width:250px;
+ 	height: 2px;
+ 	border-radius: 5px;  
+ 	background: #333333;
+  position:relative;
+  display:flex;
+}
+
+.vol-control::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 13px;
+	height: 13px;
+	border-radius: 50%; 
+	background: #3b4a1f;
+	cursor: pointer;
+}
+
+.massPause {
+	display: flex;
+	justify-content: flex-end;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#pauseAll {
+	height: 15px;
+	width: 15px;
+	-webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  border: 2px solid #000;
+  border-radius: 2px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+#pauseAll:checked {
+	background-color: #000;
+	content: url(assets/playicon.svg);
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+#note {
+	font-size: 14px;
+}
+
+footer {
+	position: absolute;
+	bottom: 10px;
+  	left: 10px;
+	color: #000;
+	display: block;
+	float: right;
+	font-size: 15px;
+}
+
+footer a {
+	color: #000;
+}
