@@ -1,6 +1,6 @@
 let playingAudio = new Array();
 
-//check if paused
+//check if user has selected pause all and updates pauseAll
 
 function checkPause(){
 	if (playingAudio.length==0) {
@@ -12,7 +12,7 @@ function checkPause(){
 
 checkPause();
 
-//play audio
+//play audio and displays appropriate icon.
 
 function playSound(audioNum) {
 	let sound=document.getElementById(audioNum);
@@ -30,7 +30,7 @@ function playSound(audioNum) {
 	}
 }
 
-//volume
+//Volume - controls the loudness of the sound from audioNum value. Displays appropriate icon.
 
 function changeVolume(audioNum, val) {
 	let sound=document.getElementById(audioNum);
@@ -43,7 +43,7 @@ function changeVolume(audioNum, val) {
 	}
 }
 
-//pause all
+//Pause all - checks pauseAll status then either pause or resume all sound and display notice.
 
 function pauseAll() {
 	if (document.getElementById("pauseAll").checked) {

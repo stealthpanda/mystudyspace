@@ -17,8 +17,9 @@
 	<body>
 
 		<section class="header">
-			<button class="nav-links" onclick=" window.open('tips.html', '_self')">study tips</button>
+			<button class="nav-links" onclick=" window.open('index.html', '_self')">home</button>
 			<button class="nav-links" onclick=" window.open('about.html', '_self')">about</button>
+			<button class="nav-links" onclick=" window.open('tips.html', '_self')">study tips</button>	
 		</section>	
 
 		<section class="content">
@@ -99,25 +100,10 @@
 				<div class="audio unpressed">
 					<span>
 						<p> Sunny weather &nbsp;</p>
-						<button id="play-5" onclick="playSound(5)"></button>
-					</span>
-					<audio loop id="5">
-						<source src="assets/smartsound_ATMO_NATURE_Country_Birds_Call_02.mp3" type="audio/mpeg">
-						<p> Your browser doesn't support HTML 5 sounds.</p>
-					</audio>
-					<span>
-						<div class="volume-control" id="vol"></div>
-						<input type="range" onchange="changeVolume(5, this.value)" min="0" max="1" step="0.025" value="0.70" class="vol-control">
-					</span>
-				</div>
-
-				<div class="audio unpressed">
-					<span>
-						<p> Typing &nbsp;</p>
 						<button id="play-1" onclick="playSound(1)"></button>
 					</span>
 					<audio loop id="1">
-						<source src="assets/typing.mp3" type="audio/mpeg">
+						<source src="assets/smartsound_ATMO_NATURE_Country_Birds_Call_02.mp3" type="audio/mpeg">
 						<p> Your browser doesn't support HTML 5 sounds.</p>
 					</audio>
 					<span>
@@ -155,6 +141,7 @@
 						<input type="range" onchange="changeVolume(3, this.value)" min="0" max="1" step="0.025" value="0.70" class="vol-control">
 					</span>
 				</div>
+
 				<div class="audio unpressed">
 					<span>
 						<p> Piano music &nbsp;</p>
@@ -167,6 +154,21 @@
 					<span>
 						<div class="volume-control" id="vol"></div>
 						<input type="range" onchange="changeVolume(4, this.value)" min="0" max="1" step="0.025" value="0.70" class="vol-control">
+					</span>
+				</div>
+
+				<div class="audio unpressed">
+					<span>
+						<p> Typing &nbsp;</p>
+						<button id="play-5" onclick="playSound(5)"></button>
+					</span>
+					<audio loop id="5">
+						<source src="assets/typing.mp3" type="audio/mpeg">
+						<p> Your browser doesn't support HTML 5 sounds.</p>
+					</audio>
+					<span>
+						<div class="volume-control" id="vol"></div>
+						<input type="range" onchange="changeVolume(5, this.value)" min="0" max="1" step="0.025" value="0.70" class="vol-control">
 					</span>
 				</div>
 
