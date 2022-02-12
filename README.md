@@ -7,7 +7,7 @@
 ---
 
 ## About this project
-This project was created as part of assignment 1 in Massey University's 158.258 Web Development paper (summer school 2021/2022), an introductory into web development. The brief of the assignment was the create a 3 page website using HTML, CSS and JavaScript. I received an A+ grade for this project.
+This project was created as part of assignment 1 in Massey University's 158.258 Web Development paper (summer school 2021/2022), introduction to web-based application development. The brief of the assignment was the create a 3 page website using HTML, CSS and JavaScript. I received an A+ grade for this project.
 
 ---
 
