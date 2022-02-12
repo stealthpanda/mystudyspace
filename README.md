@@ -6,6 +6,11 @@
 
 ---
 
+## About this project
+This project was created as part of assignment 1 in Massey University's 158.258 Web Development paper (summer school 2021/2022), an introductory into web development. The brief of the assignment was the create a 3 page website using HTML, CSS and JavaScript. I received an A+ grade for this project.
+
+---
+
 ## Need
 Studying and staying focused is a difficult experience for many students. This becomes even harder when you don't have access to a calming environment like the library to help you focus. This has become more prevalent during the pandemic where many students are forced to study from home with noisy family/flat mates. 
 The study space aims to provide a calming space to for studying that users can access anywhere. Study space features calming sound effects and to-do list to help you stay focused. 
